@@ -1,12 +1,17 @@
 # Employee Management System - Interview Project
 
-## Starting The Database
+## Infrastructure
 
-To start the database you can run the following command:
+This project uses an in-memory H2 database to store the data.  
+The database is created and populated with some sample data when the application starts.  
+The database can be accessed at `http://localhost:8080/h2-console` with the following credentials:
 
-```docker compose up```
-
-This will start your database and initialize it with the schema.
+```
+Credentials
+---
+User: sa
+Password: password
+```
 
 ## Task 1
 
